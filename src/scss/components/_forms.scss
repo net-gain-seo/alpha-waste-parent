@@ -1,0 +1,43 @@
+select,
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="password"],
+input[type="number"],
+input[type="search"],
+textarea {
+    display: block;
+    width: 100%;
+    height: 5rem;
+    border-radius: 0px;
+    box-shadow: none;
+    background-image: none;
+    font-family: inherit;
+    padding: 10px;
+    padding-right: 0.5rem;
+    background-color: #fff;
+    border: 1px solid #eeeeee;
+    color: rgba(0, 0, 0, 0.75);
+}
+
+input[type="submit"] {
+   border: none;
+   cursor: pointer;
+   padding: 1rem 2rem;
+   text-align: center;
+   display: inline-block;
+
+   &:hover {
+      text-decoration: none;
+   }
+}
+
+select {
+    padding: 0.3125rem;
+}
+.textarea-lg {
+    height: 6rem;
+}
+::-webkit-input-placeholder {
+    color: grey;
+}

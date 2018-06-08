@@ -1,0 +1,22 @@
+.gallery-thumb{
+  max-width: 250px!important;
+  max-height: 250px;
+  overflow: hidden;
+  padding: 0;
+  margin-bottom: 40px!important;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  img{
+    max-width: -webkit-fit-content;
+    max-width: -moz-fit-content;
+    max-width: fit-content;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    margin-top: -25%;
+  }
+}
+.compensate-for-scrollbar {
+    margin-right: 0px!important;
+}

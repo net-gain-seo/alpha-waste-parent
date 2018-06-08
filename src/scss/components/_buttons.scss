@@ -1,0 +1,12 @@
+.button {
+   line-height: 1;
+   cursor: pointer;
+   padding: 1rem 2rem;
+   text-align: center;
+   display: inline-block;
+   border: none;
+
+   &:hover {
+      text-decoration: none;
+   }
+}

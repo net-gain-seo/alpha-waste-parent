@@ -1,0 +1,90 @@
+/*
+
+This stylesheet should be used for custom classes that are not design specific for the site's child theme, but can be used inside of child themes on elements.
+
+*/
+
+html, body {
+   font-size: $htmlfs;
+   line-height: 1.5;
+   font-family: arial;
+}
+
+.row{
+  padding: 60px 0px;
+}
+.padding100{
+  padding: 100px 0px;
+}
+.padding90{
+  padding: 90px 0px;
+}
+.padding80{
+  padding: 80px 0px;
+}
+.padding70{
+  padding: 70px 0px;
+}
+.padding60{
+  padding: 60px 0px;
+}
+.padding50{
+  padding: 50px 0px;
+}
+.padding40{
+  padding: 40px 0px;
+}
+.padding30{
+  padding: 30px 0px;
+}
+.padding25{
+  padding: 25px 0px;
+}
+.padding20{
+  padding: 20px 0px;
+}
+.padding10{
+  padding: 10px 0px;
+}
+.padding0{
+  padding: 0px;
+}
+.margin0{
+  margin: 0px;
+}
+.paddingtop0{
+  padding-top: 0px;
+}
+.paddingbottom0{
+  padding-bottom: 0px;
+}
+.paddingtop25{
+  padding-top: 25px;
+}
+.paddingbottom25{
+  padding-bottom: 25px;
+}
+.paddingright0{
+  padding-right: 0px;
+}
+.paddingleft0{
+  padding-left: 0px;
+}
+.marginb{
+  margin-bottom: 2.5rem;
+}
+.semibold{
+  font-weight: 500;
+}
+.normalfont{
+  font-weight: normal;
+}
+.bold{
+  font-weight: bold;
+}
+.whiteText{
+  color: white!important;
+}
+.blackText{
+  color: black!important;
+}

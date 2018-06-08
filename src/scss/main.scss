@@ -1,0 +1,39 @@
+/*
+
+This stylesheet should only be used for global vaiables & mixins that are not design specific to the custom site's child theme. Also used for partial imports.
+
+/*
+
+/*
+
+RESPONSIVE STATES
+
+*/
+$screen-lg-min: 1199px;
+$screen-lg-max: ($screen-lg-min - 1);
+$screen-md-min: 992px;
+$screen-md-max: ($screen-md-min - 1);
+$screen-sm-min: 768px;
+$screen-sm-max: ($screen-sm-min - 1);
+$screen-xsm-min: 576px;
+$screen-xsm-max: ($screen-xsm-min - 1);
+
+/** FONT SIZES */
+
+$htmlfs          : 10px; //10px
+$fsBody          : 2rem; // 20px
+$fsTitle         : 5rem; // 50px
+$fsH1            : 3rem; // 30px
+$fsH2            : 2.7rem; // 27px
+$fsH3            : 2.2rem; // 22px
+$fsH4            : $fsBody; // 20px
+
+/** PARTIALS */
+@import "base";
+@import "components/forms";
+@import "components/buttons";
+@import "components/gallery";
+@import "woocommerce";
+@import "components/sliders";
+@import "content";
+@import "ie";
